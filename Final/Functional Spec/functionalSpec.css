@@ -1,0 +1,41 @@
+/*
+ Filename: functionalSpec.css
+ Written by: Dhruv Patel
+ Purpose: Learning about jQuery.
+ Date: 5 April 2019
+ Modification History:
+ 5 April 2019 made
+*/
+
+/* fomatting the body section*/
+
+body{
+	font-family: verdana;
+}
+
+h1,h2,h3{
+    padding-left: 60px;
+    color: rgb(42, 11, 114);
+
+}
+.one{
+    text-align: center;
+    color: rgb(42, 11, 114);
+}
+
+div{
+    padding-left: 90px;
+}
+p {
+	width: 450px;
+}
+
+#dock{
+    padding-left: 100%
+}
+
+img{
+    padding-left: 80px;
+    height: 600px;
+    width: 800px;
+}

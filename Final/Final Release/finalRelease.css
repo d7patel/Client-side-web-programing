@@ -1,0 +1,89 @@
+/*
+ Filename: finalRelease.css
+ Written by: Dhruv Patel
+ Purpose: Creating the first website.
+ Date: 10 April 2019
+ Modification History:
+ 10 April 2019 made
+ 14 April 2019
+ 19 April 2019
+ 20 April 2019
+ 23 April 2019
+*/
+
+/* fomatting the body section*/
+
+body{
+    font-family: "Trebuchet MS", sans-serif;
+    margin: 50px;
+    background-color: rgb(176, 172, 170);
+}
+.demoHeaders {
+    margin-top: 2em;
+}
+#dialog-link {
+    padding: .4em 1em .4em 20px;
+    text-decoration: none;
+    position: relative;
+}
+#dialog-link span.ui-icon {
+    margin: 0 5px 0 0;
+    position: absolute;
+    left: .2em;
+    top: 50%;
+    margin-top: -8px;
+}
+#icons {
+    margin: 0;
+    padding: 0;
+}
+#icons li {
+    margin: 2px;
+    position: relative;
+    padding: 4px 0;
+    cursor: pointer;
+    float: left;
+    list-style: none;
+}
+#icons span.ui-icon {
+    float: left;
+    margin: 0 4px;
+}
+.fakewindowcontain .ui-widget-overlay {
+    position: absolute;
+}
+select {
+    width: 200px;
+}
+h1{
+    font-size: 80px;
+}
+
+#DH {
+    width: 100%;
+    height: 160px;
+
+}
+label.error {
+	font-size:small;
+    color:red;
+    display: inline-block;
+    width: auto;
+}
+input.error {
+    border: 1px solid #FF2323;
+}
+input.valid, textarea.valid{
+	border: 2px solid green;
+}
+
+label {
+    /*All labels have the same size and are properly aligned */
+    display: inline-block;
+    width: 160px;
+    text-align: left;
+}
+#msg{
+    height: 100px;
+    width: 355px;
+}

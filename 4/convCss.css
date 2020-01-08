@@ -1,0 +1,31 @@
+/*
+ Filename: convCss.css
+ Written by: Dhruv Patel
+ Purpose: Learning about prompt and alert.
+ Date: 24 January 2019
+ Modification History:
+ 24 January 2019 made
+*/
+
+/* fomatting the header section*/
+header {
+    font-size:1.4em;
+    text-shadow: 3px 1px 3px red;
+    color: rgb(37, 37, 37);
+}
+
+/* fomatting the print info*/
+#print{
+    font-weight: bold;
+    font-size:1.5em;
+    color:rgba(0, 0, 0, 0.897);
+    text-shadow: 2px 2px 2px white;
+}
+
+/* formating the body part */
+body {
+    text-align: center;
+    background-image: url("pirate.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+} 

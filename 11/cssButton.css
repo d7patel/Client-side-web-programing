@@ -1,0 +1,19 @@
+/*
+ Filename: cssButton.css
+ Written by: Dhruv Patel
+ Purpose: Learning about event.
+ Date: 30 January 2019
+ Modification History:
+ 30 January 2019 made
+ 20 March 2019
+*/
+
+/* fomatting the body section*/
+
+body{
+    text-align: left;
+}
+
+#one{
+    font-size:1.4em;
+}

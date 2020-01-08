@@ -1,0 +1,51 @@
+<!doctype html>
+<!--
+ Filename: moversShakers.html
+ Written by: Dhruv Patel
+ Purpose: Learning about jQuery.
+ Date: 3 April 2019
+ Modification History:
+ 3 April 2019 made
+-->
+
+<!--tested in google chrome and safari.-->
+<!--Both result are same.-->
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!-- file title -->
+        <title> Movers & Shakers </title>
+
+        <!--javaScript file linked with html file.-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="moversShakers.js"></script>
+        <!-- css file is linked with html file -->
+        <link rel="stylesheet" type="text/css" href="moversShakers.css">
+    </head>
+    <body>
+        <header>
+            <h1> Movers & Shakers </h1>
+        </header>
+
+        <div id="one">
+            <fieldset>
+                <!-- add 7 buttons -->
+                <button type="button" id="Hine">Hine</button>
+                <button type="button" id="Show">Show</button>
+                <button type="button" id="Toggle">Toggle</button>
+                <button type="button" id="SlideUp">Slide up</button>
+                <button type="button" id="SlideDown">Slide down</button>
+                <button type="button" id="FadeOut">Fade out</button>
+                <button type="button" id="FadeIn">Fade in</button>
+            </fieldset><br>
+            <button onclick="location.href='moversShakers.html'" type="button"> Refresh </button>
+
+            <!-- made new div for the image -->
+            <div class="img">
+                <p id="target"></p>
+            </div>
+
+        </div>
+    </body>
+</html>

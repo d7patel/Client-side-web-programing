@@ -1,0 +1,86 @@
+/*
+ Filename: indexStyle.css
+ Written by: Dhruv Patel
+ Purpose: Make my own webpage for CSCI-n341 class
+ Date: 20 April 2019
+ Modification History:
+ 20 April 2019 made
+*/
+
+/* fomatting the body section*/
+
+.one{
+	margin:0 0 6px;
+}
+header{
+	text-align:left;
+	color:white;
+	background-color:rgb(0, 45, 113);
+	padding:30px 150px;
+}
+body {
+	background-color: rgb(107, 152, 230);	/*	Use the Color Picker to find the hex code of your favorite color
+									http://www.w3schools.com/tags/ref_colorpicker.asp */
+}
+body p {
+	padding-left: 2em;
+}
+
+li, li a{						/* Define the formatting for the links to the labs */
+	list-style: none;
+	background-color: rgb(42, 60, 255);
+	text-align: center;
+	color: white;
+	border-radius: 3px;
+	padding: 2px;
+}
+
+.one h3{
+	width: 100%;
+	color: rgb(0, 8, 255);
+	line-height: 40px;
+}
+.one h2{
+	color: rgb(0, 21, 255);
+	line-height: 30px;
+	text-align: center;
+}
+
+#assignments{			/* Define the formatting for the <div id="asssignments"> box */
+	width: 720px;
+	margin: 0 auto;
+	box-shadow: 0 2px 15px #EEE;
+	min-height: 350px;
+	padding: 15px;
+	border-radius: 10px;
+	background-color: white;
+}
+#assignments ul {
+
+	width: 600px;
+}
+
+hr{			/* Define the formatting for the <hr /> line between "Course Work" and lab links */
+	margin: 10px 0;
+	width: 100%;
+	float: left;
+}
+
+#homePage{
+	color: white;
+}
+
+#left{
+	width: 250px;
+	float: left;
+	padding-left: 2.2em;
+}
+#right{
+	width: 250px;
+	float: right;
+}
+#center{
+	width: 250px;
+	float: left;
+	padding-left: 12em;
+}

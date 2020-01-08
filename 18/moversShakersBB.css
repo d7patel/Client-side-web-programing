@@ -1,0 +1,45 @@
+/*
+ Filename: moversShakersBB.css
+ Written by: Dhruv Patel
+ Purpose: Learning about jQuery.
+ Date: 3 April 2019
+ Modification History:
+ 3 April 2019 made
+*/
+
+/* fomatting the body section*/
+
+body{
+    text-align: left;
+    background-color: rgb(255);
+}
+.img{
+    height: 800px;
+    width: 800px;
+}
+
+#target{
+    background: url("ship1.jpg") top center;
+    background-repeat: no-repeat; 
+    height: 450px;
+    width: 400px;
+}
+
+#one{
+    width: 110px;
+    float: left;
+    margin-right: 10px;
+
+}
+
+#two{
+    width: 110px;
+    float: right;
+    margin-right: 10px;
+
+}
+.B{
+    width: 100px;
+    margin: 5px 5px 5px 10px;
+}
+

@@ -1,0 +1,165 @@
+<!doctype html>
+<!--
+ Filename: finalRelease.html
+ Written by: Dhruv Patel
+ Purpose: Creating the first website.
+ Date: 10 April 2019
+ Modification History:
+ 10 April 2019 made
+ 14 April 2019
+ 19 April 2019
+ 20 April 2019
+ 23 April 2019
+-->
+
+<!--tested in google chrome, safari, and firefox.-->
+<!--I got same result in google chrome and safari browsers.-->
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!-- file title -->
+        <title> Final Release</title>
+
+        <!--javaScript file linked with html file.-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/jquery.easing/1.3/jquery.easing.1.3.js"></script>
+        
+        <!-- Validation Plugin -->
+	    <!-- Use locally stored file instead of this js file. They will be in your validation folder. -->
+	    <script src="validation/dist/jquery.validate.js"></script>
+        
+        <!--CSSto define theme colors --> 
+        <link href="theme/jquery-ui.css" rel="stylesheet">
+
+        <!--jQuery UI functionality --> 
+        <script src="theme/jquery-ui.js"></script> 
+        
+        <script src="finalRelease.js"></script>
+        <!-- css file is linked with html file -->
+        <link rel="stylesheet" type="text/css" href="finalRelease.css">
+    </head>
+    <body>
+        <div id="one">
+        <!--start main div-->
+            <img id='DH' alt='DH' src="DHome.JPEG" /><br/>
+            <!--Start form-->
+            <form id="target">
+            <!--start fieldset-->
+            <fieldset id="setOne">
+                <h2>Welcome to the Dream Home</h2>
+
+                <!--start accordion div-->
+                <div id="accordion">
+
+                    <h3>Login</h3>
+                    <!--Start login div-->
+                    <div>
+                        <p><label for="email" >Email* :</label>
+                        <input type="email" id="email" name="email" placeholder="youremail@domain.com" ></p>
+                        <p><label for="password1">Password* :</label>
+                        <input type="password" id="password1" name="password1" minlength="8" placeholder="password" ></p>
+
+                        <p><label for="msg">Comments* :</label><br/>
+                        <textarea id="msg" name="msg" placeholder="Please give us a quick review here." ></textarea></p>
+                            
+                        <p>Stars(0-5)* :
+                        <input type="number" id="spinner" placeholder="0" name="spinner" >
+                        <label for="spinner" class="error"></label></p>
+
+                        <p><input type="checkbox" name="box" id="box" >Please click the check box to get eamil about new House or apartment in your area
+                        <label for="box" class="error"></label> </p>  
+                    </div>
+                    <!--end login div-->
+
+                    <h3>Sign Up</h3>
+                    <!--start sign up div-->
+                    <div>
+
+                        <p><label for="fname">First Name* :</label>
+                        <input type="text" id="fname" name="fname" placeholder="First Name" ></p>
+                    
+                        <p><label for="lname">Last Name* :</label>
+                        <input type="text" id="lname" name="lname" placeholder="Last Name" ></p>
+
+                        <p><label for="datepicker">Date Of Birth* :</label>
+                        <input type="text" id="datepicker" class="ddd" name="datepicker" ></p>
+
+                        <p><label for="phone">Phone Number* :</label>
+                        <input type="tel" id="phone" name="phone" placeholder="0000000000" ></p>
+                        <p>Gender* :</p>
+    		            <div id="radioset" >
+                            
+                            <input type="radio" id="r1" name="radio" value="Male" >
+                            <label for="r1">Male</label>
+
+			                <input type="radio" id="r2" name="radio" value="Female">    
+                            <label for="r2">Female</label>
+                        
+			                <input type="radio" id="r3"  name="radio" value="Other">
+			    	        <label for="r3">Other</label>
+                        </div>
+
+                        <p>How did you here about this website* :</p>
+    		            <div id="controlgroup">
+                            
+                            <input type="checkbox" id="check1" name="check" value="Online">
+                            <label for="check1">Online</label>
+
+			                <input type="checkbox" id="check2" name="check" value="Friends">    
+                            <label for="check2">Friends</label>
+                        
+			                <input type="checkbox" id="check3"  name="check" value="Social media">
+                            <label for="check3">Social media </label>
+
+                            <input type="checkbox" id="check4"  name="check" value="Ads">
+                            <label for="check4">Ads </label>
+                            
+                            <input type="checkbox" id="check5"  name="check" value="Other">
+			    	        <label for="check5">Other</label>
+
+                        </div>
+                        <div>
+                            <p><label for="address">Address* :</label>
+                            <input type="text" id="address" name="address" ></p>
+
+                            <p><label for="city">City:*</label>
+                            <input type="text" id="city" name="city" ></p>
+
+                            <p><label for="state">State:*</label>                                
+                            <input type="text" id="state" name="state" ></p>
+
+                            <label for="zip">Zipcode:*</label>                                
+                            <input type="number" id="zip" name="zip" >
+                                                
+                        </div>
+                    
+                        <p><label for="email1">Email* :</label>
+                        <input type="email" id="email1" name="email1" placeholder="youremail@domain.com" ></p>
+
+                        <p><label for="password2">Password* :</label>
+                        <input type="password" id="password2" name="password2" minlength="8" placeholder="Password" ></p>
+
+                        <p><label for="password3"> Confirm Password* :</label>
+                        <input type="password" id="password3" name="password3" minlength="8" placeholder="Confirm Password" ></p>
+
+                    </div>
+                     <!--end sign up div-->
+                </div>
+                <!--end accordion div-->
+
+                <!--submit and reset button-->
+                <button type="submit" class="button" id="button">Submit</button>
+                <button type="reset" class="button" id="reset">Reset</button>
+            </fieldset>
+            <!--end fieldset-->
+    
+        </form><!--end form-->
+
+        <div id="myOutpt"> <!--start output div-->
+        </div><!--end output div-->
+        <a href="https://cs.iupui.edu/~pateldhm/n341/indexFP.html"> Go to home page </a>
+        </div> <!--end main div-->
+    </body>
+</html>

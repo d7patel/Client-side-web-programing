@@ -1,0 +1,24 @@
+/*
+ Filename: cssjQueryBB.css
+ Written by: Dhruv Patel
+ Purpose: Learning about jQuery.
+ Date: 27 March 2019
+ Modification History:
+ 27 March 2019 made
+ 27 March 2019
+*/
+
+/* fomatting the body section*/
+
+body{
+    text-align: left;
+}
+
+.img{
+    background: url("giphy1.gif");
+    background-repeat: no-repeat; 
+    float:right;
+    height: 600px;
+    width: 600px;
+
+}

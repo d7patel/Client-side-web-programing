@@ -1,0 +1,18 @@
+/*
+ Filename: convCss.css
+ Written by: Dhruv Patel
+ Purpose: Learning about prompt and alert.
+ Date: 24 January 2019
+ Modification History:
+ 24 January 2019 made
+*/
+
+/* fomatting the body section*/
+
+body{
+    text-align: left;
+}
+
+#one{
+    font-size:1.4em;
+}

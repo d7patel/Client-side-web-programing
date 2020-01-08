@@ -1,0 +1,54 @@
+/*
+ Filename: cssMoreIfs.css
+ Written by: Dhruv Patel
+ Purpose: Learning about If else.
+ Date: 13 February 2019
+ Modification History:
+ 13 February 2019 made
+*/
+
+body {
+    font-family: arial;
+    text-align:center;
+    background: url("world.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+div.box1{
+    text-align: left;
+    padding: 30px;
+    height: 210px;
+    width: 270px;
+    background-color: #d8d8d8;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    font-size:1.2em;
+    margin: auto;
+  }
+
+  div.box2{
+    height:90px;
+    width: 250px;
+    background-color: #d8d8d8;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    font-size:1.2em;
+    margin: auto;
+  }
+
+  div.box3{
+    height:90px;
+    width: 250px;
+    background-color: #d8d8d8;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    font-size:1.2em;
+    margin: auto;
+  }

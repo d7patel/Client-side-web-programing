@@ -1,0 +1,25 @@
+/*
+ Filename: multiWrites.html
+ Written by: Dhruv Patel
+ Purpose: l.........
+ Date: 23 January 2019
+ Modification History:
+ 23 January 2019 made
+*/
+
+/* Formating the header line */
+header {
+    text-align:center;
+    color: black;
+}
+
+/* fomatting the one info*/
+#one{
+
+    color:rgb(221, 0, 0);
+}
+/* fomatting the two info */
+#two{
+
+    color:rgb(0, 81, 255);
+}

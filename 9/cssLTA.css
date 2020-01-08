@@ -1,0 +1,36 @@
+/*
+ Filename: cssLTA.css
+ Written by: Dhruv Patel
+ Purpose: Learning about Looping Through Arrays.
+ Date: 20 February 2019
+ Modification History:
+ 20 February 2019 made
+*/
+
+body {
+    font-family: arial;
+
+}
+
+.input{
+    padding: 30px;
+    height: 50px;
+    width: 500px;
+    background-color: #d8d8d8;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    font-size:1.4em;
+}
+
+.output{
+    padding: 30px;
+    height: 150px;
+    width: 500px;
+    background-color: #d8d8d8;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    font-size:1.4em;
+}
+

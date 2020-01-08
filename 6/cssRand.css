@@ -1,0 +1,39 @@
+/*
+ Filename: cssRand.css
+ Written by: Dhruv Patel
+ Purpose: Learning about object, properties and methodes.
+ Date: 5 February 2019
+ Modification History:
+ 5 February 2019 made
+*/
+
+/* fomatting the body section*/
+
+.pirate{
+    font-size:1.5em;
+    color: rgb(0, 0, 0);
+    background-color: #d4a87e;
+	font-weight: bold;
+	border : 2px solid rgb(136, 0, 0);
+    height: 60px;
+    width: 650px;
+}
+
+.captain{
+    font-size:1.5em;
+    color: rgb(102, 51, 18);
+    background-color: #d4a87e;
+	font-weight: bold;
+	border : 2px solid rgb(150, 67, 0);
+    height: 60px;
+    width: 900px;
+}
+
+body {
+    text-align: center;
+    background: url("pirateOne.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} 
